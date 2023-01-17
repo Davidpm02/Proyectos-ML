@@ -22,7 +22,7 @@ correspondiente a la columna y del dataframe.
 Tras esto, he hecho uso de la libreria sk-learn para separar el array anterior en datos de entrenamiento y testeo (X_train,X_test---y_train,y_test),
 y mezclar los valores de los datos (no queremos que el modelo memorice ningun tipo de secuencia en los valores de entrenamiento).
 
-    - Separamos los datos en datos de entrenamiento y testeo porque el modelo NO DEBE HABER VISTO ninguno de los datos de testeo al momento de entrenar.
+   - Separamos los datos en datos de entrenamiento y testeo porque el modelo NO DEBE HABER VISTO ninguno de los datos de testeo al momento de entrenar.
 
 Por ultimo, he utilixado de nuevo sk-learn para predecir los valores correspondientes a X_train, y ha predicho los valores que supuestamente encajarian 
 en la columna de las y.
