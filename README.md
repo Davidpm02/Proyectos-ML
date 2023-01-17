@@ -27,6 +27,12 @@ y mezclar los valores de los datos (no queremos que el modelo memorice ningun ti
 Por ultimo, he utilixado de nuevo sk-learn para predecir los valores correspondientes a X_train, y ha predicho los valores que supuestamente encajarian 
 en la columna de las y.
 
+### COMMIT-3 ###
+
+Despues de probar el rendimiento de nuestro modelo, es hora de entrenarlo. Para ello, los datos de entreda se deben pasar a un formato con el que Sagemaker pueda trabajar con ellos. Ademas, se han seteado los hiperparametros para el entrenamiento.
+
+Al terminar el entrenamiento, el resultado se almacena en una nueva subcarpeta (output).
+
 
 
 
