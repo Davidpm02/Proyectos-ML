@@ -3,7 +3,7 @@ Este repositorio subire los principales proyectos que haré con AWS Sagemaker, e
 
 
 
-## Modelo de prediccion de salario de emepleados ##
+## Modelo de prediccion de salario de empleados ##
 Se trata de un modelo de machine learning de aprendizaje supervisado.
 
 ### COMMIT-1 ###
@@ -36,7 +36,14 @@ Al terminar el entrenamiento, el resultado se almacena en una nueva subcarpeta (
 
 
 
+## Modelo de predicción de enfermedades ##
+La carpeta contiene un cuaderno de Jupyter Notebook con el código del sistema de predicción, además del dataset utilizado para su entrenamiento y testeo.
 
+### COMMIT #1
+El modelo creado parece estar sobreajustado, pues en el testeo muestra una loss = 0, acc = 0.63.
+Es necesario corregirlo y mostrar el resultado de otra manera diferente (si una persona tiene una enfermedad o no).
+
+Podria modificar el modelo para, en base a ciertos parametros que puedan tener correlacion entre ellos, poder evaluar si el paciente tiene alguna enfermedad de las que hay en el conjunto de datos, si es fumador...
 
 
 
